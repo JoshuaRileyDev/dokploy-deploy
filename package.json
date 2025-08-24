@@ -1,0 +1,66 @@
+{
+  "name": "@joshuarileydev/dokploy-deploy",
+  "version": "1.0.0",
+  "description": "A powerful Node.js CLI tool that automates the complete deployment setup for Dokploy. Deploy your applications from local development to live, production-ready environments with custom domains, SSL certificates, and environment variables in just one command.",
+  "main": "src/dokploy-deployer.js",
+  "bin": {
+    "dokploy-deploy": "bin/dokploy-deploy.js"
+  },
+  "scripts": {
+    "start": "node bin/dokploy-deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dokploy",
+    "deploy",
+    "cli",
+    "automation",
+    "monorepo",
+    "github",
+    "ssl",
+    "domains",
+    "environment",
+    "deployment",
+    "devops",
+    "continuous-deployment",
+    "docker",
+    "containers"
+  ],
+  "author": {
+    "name": "Joshua Riley",
+    "email": "joshua@joshuariley.dev",
+    "url": "https://joshuariley.dev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/JoshuaRileyDev/dokploy-deploy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaRileyDev/dokploy-deploy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoshuaRileyDev/dokploy-deploy/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "dotenv": "^16.0.0"
+  },
+  "peerDependencies": {
+    "gh": ">=2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
