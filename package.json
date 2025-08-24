@@ -1,6 +1,6 @@
 {
   "name": "@joshuarileydev/dokploy-deploy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful Node.js CLI tool that automates the complete deployment setup for Dokploy. Deploy your applications from local development to live, production-ready environments with custom domains, SSL certificates, and environment variables in just one command.",
   "main": "src/dokploy-deployer.js",
   "bin": {
